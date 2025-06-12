@@ -38,7 +38,7 @@ export default function Home() {
       if (window.electron) {
         data = await window.electron.invoke('fetch-help');
       } else {
-        const res = await fetch('http://localhost:1337/api/how-to-give?populate=*');
+        const res = await fetch('https://holy-birthday-a45fdc80ca.strapiapp.com/api/how-to-give?populate=*');
         data = await res.json();
       }
       setHelp(data);
@@ -74,7 +74,7 @@ export default function Home() {
           <div>
             <Markdown>{ help.data.Column3 }</Markdown>
             <div className={styles.qrcodeBlock}>
-              { help.data.QRCode.url && (<img className={styles.qrcode} src={'http://localhost:1337' + help.data.QRCode.url} />)}
+              { help.data.QRCode.url && (<img className={styles.qrcode} src={help.data.QRCode.url} />)}
               { help.data.QRCodeCaption && (<p className={styles.caption}>{help.data.QRCodeCaption}</p>)}
             </div>
           </div>

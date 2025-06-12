@@ -48,7 +48,7 @@ export default function Home() {
       if (window.electron) {
         data = await window.electron.invoke('fetch-stories');
       } else {
-        const res = await fetch('http://localhost:1337/api/stories?populate=*&pagination[page]=1&pagination[pageSize]=200');
+        const res = await fetch('https://holy-birthday-a45fdc80ca.strapiapp.com/api/stories?populate=*&pagination[page]=1&pagination[pageSize]=200');
         data = await res.json();
       }
       
@@ -73,7 +73,7 @@ export default function Home() {
         <div className={styles.storyLayoutLeft}>
           <div className={styles.storyImageViewer}>
             <img 
-              src={ 'http://localhost:1337' + currentImage.url } 
+              src={ currentImage.url } 
               alt={ currentImage.alternativeText }
               width={ currentImage.width }
               height={ currentImage.height } />
@@ -91,7 +91,7 @@ export default function Home() {
                   onClick={() => setCurrentImage(image)}>
                     <img 
                       className={currentImage.id == image.id ? styles.storyImageViewerThumbnailActive : ''}
-                      src={ 'http://localhost:1337' + image.url } 
+                      src={ image.url } 
                       alt={ image.alternativeText } />
                 </div>
               ))}

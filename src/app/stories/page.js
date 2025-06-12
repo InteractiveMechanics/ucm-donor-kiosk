@@ -43,7 +43,7 @@ export default function Home() {
       if (window.electron) {
         data = await window.electron.invoke('fetch-stories');
       } else {
-        const res = await fetch('http://localhost:1337/api/stories?populate=*&pagination[page]=1&pagination[pageSize]=200');
+        const res = await fetch('https://holy-birthday-a45fdc80ca.strapiapp.com/api/stories?populate=*&pagination[page]=1&pagination[pageSize]=200');
         data = await res.json();
       }
       
@@ -67,7 +67,7 @@ export default function Home() {
           {stories.data.map((story, index) => (
             (index >= (page - 1) * 6 && index < page * 6) && (
               <Link href={'/stories/' + story.id} className={styles.storyListItem} key={story.id}>
-                <img src={'http://localhost:1337' + story.ThumbnailImage.url} />
+                <img src={story.ThumbnailImage.url} />
                 <p><b>{ story.DonorName }</b></p>
                 <p><small>{ story.ShortTitle }</small></p>
               </Link>

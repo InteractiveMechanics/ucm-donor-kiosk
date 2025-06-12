@@ -60,7 +60,7 @@ export default function Home() {
       if (window.electron) {
         data = await window.electron.invoke('fetch-donors');
       } else {
-        const res = await fetch('http://localhost:1337/api/donors?pagination[page]=1&pagination[pageSize]=3000&sort=DonorName');
+        const res = await fetch('https://holy-birthday-a45fdc80ca.strapiapp.com/api/donors?pagination[page]=1&pagination[pageSize]=3000&sort=DonorName');
         data = await res.json();
       }
       setDonors(data);
