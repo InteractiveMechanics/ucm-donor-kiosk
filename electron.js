@@ -109,11 +109,11 @@ function createWindow() {
       responseHeaders: {
         ...details.responseHeaders,
         'Content-Security-Policy': [
-          "default-src 'self' http://localhost:3000 http://localhost:1337;",
+          "default-src 'self' http://localhost:3000;",
           "script-src 'self' 'unsafe-inline' 'unsafe-eval';",
           "style-src 'self' 'unsafe-inline';",
-          "img-src 'self' data: http://localhost:3000 http://localhost:1337;",
-          "connect-src 'self' http://localhost:3000 http://localhost:1337 ws://localhost:3000;",
+          "img-src 'self' data: http://localhost:3000;",
+          "connect-src 'self' http://localhost:3000 ws://localhost:3000;",
           "worker-src 'self' blob:;"
         ].join(' ')
       }
