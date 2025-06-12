@@ -1,0 +1,66 @@
+{
+  "name": "ucm-donor-display",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "electron": "electron .",
+  "dist": "electron-builder",
+  "main": "electron.js",
+  "build": {
+    "appId": "com.ucm.donordisplay",
+    "productName": "UCM Donor Display",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "node_modules/**/*",
+      "electron.js",
+      "server.js",
+      "dataService.js",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron .",
+    "dev:electron": "ELECTRON_DISABLE_SECURITY_WARNINGS=true npm run electron",
+    "dist": "next build && electron-builder"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "express": "^4.18.2",
+    "graphql": "^16.9.0",
+    "markdown-to-jsx": "^7.7.3",
+    "motion": "^11.17.0",
+    "next": "14.2.11",
+    "node-fetch": "^3.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-idle-timer": "^5.7.2",
+    "react-simple-keyboard": "^3.8.41",
+    "simple-keyboard": "^3.8.31"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron": "^32.1.0",
+    "electron-builder": "^25.0.5",
+    "electron-is-dev": "^3.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.11",
+    "wait-on": "^8.0.3"
+  }
+}

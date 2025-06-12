@@ -1,0 +1,12 @@
+.attract {
+  width: 100vw;
+  height: calc(100vh - 120px);
+  position: relative;
+}
+
+.attract .donor {
+  position: absolute;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Adobe Garamond Pro";
+}

@@ -1,0 +1,72 @@
+{
+  "data": {
+    "id": 5,
+    "documentId": "mggqu2loz32tk0en2vxootp1",
+    "Column1": "## Our Work\n\nThe University of Chicago Medicine is advancing life-changing research and patient care, educating the future leaders in science and medicine, and\nexpanding access to leading-edge diagnostics and treatments.\n- From pioneering organ transplantation to discovering breakthrough cancer treatments, our physicians and scientists have helped shape\nmodern medicine and continue to define its frontiers.\n- We bring the brightest, most committed students and trainees to campus and equip them to tackle the most pressing medical and\nscientific challenges of our time.\n- Through innovation and collaboration, we provide comprehensive, state-of-the-art care that improves health outcomes for our patients and\nhelp to ensure that more individuals and communities can benefit from world-class academic medicine.\n\n",
+    "Column2": "## Give\n\nYour support makes the extraordinary possible, turning breakthroughs into everyday realities. Whether through direct donations, matching gifts, or\nplanned contributions, every contribution—large or small—helps propel our mission of research, education, and patient care forward.",
+    "Column3": "## Contact\n\nFor questions about how you can make an impact at the University of Chicago Medicine, or about your recognition on the donor tribute wall or kiosk, please contact us at 773.702.6565 or givetomedicine@bsd.uchicago.edu.\n\nYou can also write us at:<br/>\nThe University of Chicago Medicine and Biological Sciences Development<br/>\nGift Administration and Business Data<br/>\n5235 S. Harper Court, 4th Floor<br/>\nChicago, IL 60615",
+    "QRCodeCaption": "Support innovative research, patient care, and education today.",
+    "createdAt": "2025-01-31T13:40:35.290Z",
+    "updatedAt": "2025-05-21T18:01:26.435Z",
+    "publishedAt": "2025-05-21T18:01:26.441Z",
+    "QRCode": {
+      "id": 3,
+      "documentId": "zfhk0fadgq9x7afqiv2c8pn9",
+      "name": "Untitled 1.png",
+      "alternativeText": null,
+      "caption": null,
+      "width": 1000,
+      "height": 1000,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_Untitled 1.png",
+          "hash": "thumbnail_Untitled_1_830647f405",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 156,
+          "height": 156,
+          "size": 24.77,
+          "sizeInBytes": 24772,
+          "url": "/uploads/thumbnail_Untitled_1_830647f405.png"
+        },
+        "small": {
+          "name": "small_Untitled 1.png",
+          "hash": "small_Untitled_1_830647f405",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 500,
+          "height": 500,
+          "size": 94.75,
+          "sizeInBytes": 94752,
+          "url": "/uploads/small_Untitled_1_830647f405.png"
+        },
+        "medium": {
+          "name": "medium_Untitled 1.png",
+          "hash": "medium_Untitled_1_830647f405",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 750,
+          "height": 750,
+          "size": 176.34,
+          "sizeInBytes": 176336,
+          "url": "/uploads/medium_Untitled_1_830647f405.png"
+        }
+      },
+      "hash": "Untitled_1_830647f405",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 49.27,
+      "url": "/uploads/Untitled_1_830647f405.png",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "createdAt": "2025-05-21T17:55:48.501Z",
+      "updatedAt": "2025-05-21T17:55:48.501Z",
+      "publishedAt": "2025-05-21T17:55:48.501Z"
+    }
+  },
+  "meta": {}
+}

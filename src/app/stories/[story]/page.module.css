@@ -1,0 +1,67 @@
+.storyLayout {
+  display: flex;
+  padding: 100px 105px 0;
+  justify-content: space-between;
+}
+
+.storyLayoutLeft {
+  width: 695px;
+}
+.storyLayoutRight {
+  width: 925px;
+}
+
+.storyImageViewer {
+  width: 695px;
+  height: 478px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.storyImageViewer img {
+  display: block;
+  max-width: 695px;
+  max-height: 478px;
+  width: auto;
+  height: auto;
+}
+.storyImageViewerCaption p {
+  color: #000;
+  font-family: Gotham;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 325;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.scrollable {
+  height: 720px;
+  overflow-y: auto;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+
+.storyImageViewerThumbnails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.storyImageViewerThumbnail {
+  width: 100px;
+  height: 100px;
+  background: #FFF;
+}
+.storyImageViewerThumbnailActive {
+  border: 5px solid #800000;
+}
+
+.storyImageViewerThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

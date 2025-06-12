@@ -1,0 +1,38 @@
+.footer {
+  background: white;
+  height: 120px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 25px;
+}
+
+.footer img {
+  height: 80px;
+  width: auto;
+}
+
+.footer h1 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.footer nav a {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 30px;
+  padding: 50px 0 44px;
+  letter-spacing: 2px;
+}
+
+.footer nav a.active {
+  color: #800000;
+  border-bottom: 8px #800000 solid;
+}

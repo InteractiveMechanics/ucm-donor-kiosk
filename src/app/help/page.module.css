@@ -1,0 +1,31 @@
+.grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 -30px;
+}
+
+.grid > div {
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 33%;
+  padding: 0 30px;
+}
+
+.qrcodeBlock {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.qrcode {
+  width: 200px;
+  height: 200px;
+  margin-right: 30px;
+  padding: 15px;
+  background-color: white;
+}
+.caption {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 0;
+}

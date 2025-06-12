@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ucm-donor-api"
+		},
+		{
+			"path": "../ucm-donor-api-5"
+		}
+	],
+	"settings": {}
+}
