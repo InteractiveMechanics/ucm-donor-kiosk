@@ -14,13 +14,15 @@ export default function RootLayout({ children }) {
 
   const { getRemainingTime } = useIdleTimer({
     onIdle,
-    timeout: 60000,
+    timeout: 1000000,
     throttle: 500
   })
 
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

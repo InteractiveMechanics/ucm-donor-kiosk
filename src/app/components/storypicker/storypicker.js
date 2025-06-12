@@ -34,7 +34,7 @@ export const StoryPicker = ({ storyId, stories, showStories, setShowStories }) =
                 key={story.id} 
                 href={'/stories/' + story.id} 
                 className={styles.storyListItem + (story.id == storyId ? ' ' + styles.storyListItemActive : '')}>
-                <img src={'http://localhost:1337' + story.ThumbnailImage.url} />
+                <img src={story.ThumbnailImage.url} />
                 <p><b>{ story.DonorName }</b></p>
                 <p><small>{ story.ShortTitle }</small></p>
               </Link>
